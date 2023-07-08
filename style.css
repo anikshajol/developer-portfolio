@@ -9,7 +9,7 @@ body {
 }
 .btn-primary {
   border-radius: 5px;
-  background: #fd6e0a;
+  background-color: #fd6e0a;
   color: white;
   border: 0;
   font-size: 20px;
@@ -41,4 +41,39 @@ nav > ul li a {
   color: #474747;
   text-decoration: none;
   margin-right: 50px;
+}
+
+/* header style */
+
+.header {
+  background: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-greetings {
+  margin: 0;
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.banner-para {
+  font-size: 18px;
+  color: #474747;
+  font-weight: 400;
+}
+
+.profile-img {
+  width: 500px;
 }
