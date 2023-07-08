@@ -41,8 +41,9 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -215,4 +216,42 @@ main section {
 
 .resume-container hr{
   margin: 30px;
+}
+
+/* footer section */
+footer{
+  display: flex;
+  gap: 120px;
+  padding: 130px 240px;
+  background: #FFF8F3;
+}
+.footer-column{
+  width: 50%;
+}
+.footer-title{
+  text-align: left;
+}
+.footer-icon{
+  display: flex;
+  gap: 24px;
+}
+
+form input{
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 0;
+  background-color: #FFF;
+
+}
+
+#message{
+
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 25px;
+  background-color: #FFF;
 }
